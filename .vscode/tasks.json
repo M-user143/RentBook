@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "C:/msys64/ucrt64/bin/qmake.exe",
+            "args": [
+                "${workspaceFolder}/RentBook.pro",
+                "-spec",
+                "win32-g++",
+                "&&",
+                "C:/msys64/ucrt64/bin/mingw32-make.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}
