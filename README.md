@@ -46,11 +46,14 @@ A comprehensive desktop application for property managers and landlords to track
 2. Install [MinGW-w64](https://www.mingw-w64.org/) or MSVC compiler  
 3. Clone repository:
    ```bash
-   git clone https://github.com/yourusername/rentbook-system.git
-```
+   git clone https://github.com/M-user143/RentBook.git
+   ```
+4. In ucrt64 bash of Msys2 or CMD or Shell Type Commands:
+   qmake RentBook.pro -spec win32-g++
+   make
 
-4. Open `.pro` file in Qt Creator
-5. Build and run
+5. Executable file will be Generated in the /release directory. Just Execute and use...
+
 
 ### Linux (Ubuntu/Debian)
 
