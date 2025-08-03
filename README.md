@@ -49,10 +49,12 @@ A comprehensive desktop application for property managers and landlords to track
    git clone https://github.com/M-user143/RentBook.git
    ```
 4. In ucrt64 bash of Msys2 or CMD or Shell Type Commands:
+   ```bash
    qmake RentBook.pro -spec win32-g++
    make
+   ```
 
-5. Executable file will be Generated in the /release directory. Just Execute and use...
+6. Executable file will be Generated in the /release directory. Just Execute and use...
 
 
 ### Linux (Ubuntu/Debian)
